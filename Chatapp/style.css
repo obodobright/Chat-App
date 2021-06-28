@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.phone-container {
+    background: white;
+    height: 87%;
+    width: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 1.5em;
+    position: absolute;
+    top: 30;
+    left: 290
+}
+
+.chat-header {
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    height: 90;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    margin-top: -2em
+}
+
+i {
+    margin-top: 1.5em;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+    color: white;
+    cursor: pointer
+}
+
+.fa-menu-bar {
+    margin-left: 150
+}
+
+.profile-img {
+    border-radius: 70%;
+    border: 3px solid whitesmoke;
+    margin: 0.4em;
+    margin-top: 1.5em
+}
+
+.curved-side {
+    border: 2px solid white;
+    width: 150;
+    height: 25;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    position: relative;
+    top: -8
+}
+
+.chat-body-container {
+    background: whitesmoke;
+    margin-top: -0.5em
+}
+
+.sender-message-box {
+    padding: 0.5em;
+    padding-right: 0.1em;
+    background: rgb(234, 199, 235);
+    color: hsl(293, 100%, 63%);
+    margin: 0.5em;
+    border-radius: .7em;
+    width: 220
+}
+
+.dog-image {
+    width: 60;
+    border-radius: 0.8em;
+    margin: 0.3em;
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.reciever-message-box {
+    padding: 0.5em;
+    padding-right: 0.1em;
+    background: white;
+    color: rgb(66, 66, 112);
+    margin: 0.5em;
+    border-radius: .7em;
+    width: 220;
+    float: right
+}
+
+.price-tag {
+    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    margin: 0.5em;
+    padding: 0.7em;
+    width: 250;
+    /* border-radius: 0.5em; */
+    border-top-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    color: white
+}
+
+.price-tag input {
+    outline: none
+}
+
+.type-word-space {
+    margin-top: 0.5em
+}
+
+.type-word-space input {
+    outline: none;
+    border: none;
+    width: 350;
+    height: 40;
+    background: white;
+    padding: 0.5em;
+    border-radius: 0.9em;
+    margin: 0.5em;
+    font-family: cursive;
+}
+
+.flag {
+    height: 80%;
+    width: 400;
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-bottom-left-radius: 12em;
+    border-bottom-right-radius: 12em;
+}
+
+.text-container {
+    width: 400;
+    padding: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+    position: relative;
+    top: -300;
+    left: 250
+}
+
+.text-container h2 {
+    margin-bottom: 0.5em;
+}
+
+.flag-right {
+    height: 80%;
+    background: whitesmoke;
+    width: 300;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 15em;
+}
